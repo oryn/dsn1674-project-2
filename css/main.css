@@ -1,0 +1,184 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;}
+
+*, *::before, *::after {
+	box-sizing:inherit;}
+
+body{
+	margin: 0;}
+
+img {
+	width:50%;}
+
+p{
+	margin: 0;
+	padding: 1.5em;}
+
+/* List stylinging and*/
+ol{
+	padding: 0;}
+
+li{
+	display: inline-block;
+	list-style: none;
+	color: white;}
+
+nav li{
+ 	width: 50%;
+ 	border: 2px solid #111111;
+ 	background-color: #222222;
+ 	padding: 0.5em;
+ 	float: left;
+ 	text-align: left;
+ 	}
+
+nav a{
+	display: block;
+	font-weight: bold;
+ 	color: white;
+	text-decoration: none;
+}
+
+nav ol{
+ 	overflow: hidden;
+ 	margin: auto;
+ 	padding: 0;
+	font-weight: bold;
+  	color: white;
+	text-decoration: none;}
+/*End of list styling*/
+
+header{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background-color: #e7001d;}
+
+nav{
+	clear: both;
+	position: relative;
+	list-style-type: none;
+	color: white;}
+
+/*Span affects the title symbols in the header*/
+span{
+	display: block;
+	font-size: 50px;
+	top: 5px;}
+
+/*Heading styling*/
+h1{
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	clear:both;
+	top: 5px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0 2px 5px #111111;}
+
+h2{
+	font-weight: bolder;
+	margin: 0;
+	padding: 1.5em;
+	font-style: normal;}
+
+h3{
+	color: white;
+	position: relative;
+	top: 1em;
+
+	text-align: center;}
+/*End of heading styling*/
+
+/*Specific class styling*/
+.Medallion{
+	width: 100px;
+	top: 1em;
+	position: relative;
+	padding-bottom: 30px;}
+
+.Shengx{
+	color: white;
+	font-size: 29px;
+	text-shadow: 0 2px 5px #111111;
+	font-style: italic;
+	text-align: center;
+	width:100%;
+	position: absolute;}
+
+.Banner{
+	width:100%;
+	margin: 0;
+	padding: 0;}
+
+
+.Dragon-Block {
+	text-align: center;
+	font color: white;
+	background-color: #e4c22a;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	}
+
+.Dragon {
+	float:right;}
+
+.Dragon-Symbol {
+	float:left;}
+
+.Goat-Block {
+	text-align: center;
+	font color: white;
+	background-color: #222222;
+	color: white;
+	font-style: italic;}
+
+.Goat {
+	float:left;}
+
+.Goat-Symbol {
+	float:right;}
+
+.Rooster-Block{
+	text-align: center;
+	font color: white;
+	background-color: #bc0017;
+	color: white;
+	font-style: italic;}
+
+.Rooster-Symbol {
+	float:left;}
+
+.Rooster {
+	float:right;}
+
+.Ox-Block {
+	text-align: center;
+	font color: white;
+	background-color: #e4c22a;
+	font-style: italic;}
+
+.Ox {
+	float:left;}
+
+.Ox-Symbol {
+	float:right;}
+
+.Shengx-Picture{
+	position: relative;}
+/*Specific class styling*/
+
+footer{
+	background: #222222;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 1em;}
+
+/*Nav styling for footer "Back to Top"*/
+footer a{
+	color: white;
+	text-decoration: none;}
